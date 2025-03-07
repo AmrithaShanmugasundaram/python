@@ -1,1 +1,1 @@
-web: gunicorn pdfflask1:app
+web: waitress-serve --port=$PORT pdfflask1:app
